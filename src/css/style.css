@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+  box-sizing: border-box;
+  transition: all ease 0.2s;
+  list-style-type: none;
+}
+
+/* A elements that don't have a class get default styles */
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  line-height: 0;
+}
+
+/* Inherit fonts for inputs and buttons */
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Remove all button styles */
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+:root {
+  --very-dark-grayish-blue: hsl(237, 12%, 33%);
+  --dark-grayish-blue: hsl(240, 6%, 50%); 
+  --light-grayish-blue: hsl(240, 5%, 91%);
+  --soft-violet: hsl(273, 75%, 66%);
+  --soft-blue: hsl(240, 73%, 65%);
+  --very-dark-desaturated-blue: hsl(238, 29%, 16%);
+  --soft-red: hsl(14, 88%, 65%);
+}
+
+/* font-family: 'Kumbh Sans', sans-serif; */
