@@ -143,6 +143,7 @@ body {
 .card-faq .faq .seta {
   transition: all 0.3s ease-in-out;
   max-width: .5rem;
+  cursor: pointer;
 }
 
 .card-faq .faq p {
@@ -205,5 +206,9 @@ body {
 
   .card-faq .faq .question {
     padding-right: 0;
+  }
+  
+  .card-faq .faq p {
+    font-size: 12px;
   }
 }
