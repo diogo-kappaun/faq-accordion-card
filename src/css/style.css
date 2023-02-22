@@ -172,9 +172,8 @@ body {
 @media (max-width: 1024px) {
   .card-faq {
     grid-template-columns: auto;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 8.25rem 1fr;
     width: 20.4375rem;
-    max-height: 33.4375rem;
   }
 
   .img-area {
