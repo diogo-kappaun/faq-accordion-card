@@ -98,10 +98,17 @@ body {
 
 }
 
-.img-area img {
+.img-area .illustration-woman {
   position: absolute;
   top: 50%;
   transform: translate(-5.3rem ,-50%);
+}
+
+.img-area .box-img {
+  position: absolute;
+  z-index: 1;
+  top: 59%;
+  transform: translate(-6rem, -50%);
 }
 
 .card-faq .faq {
@@ -183,12 +190,16 @@ body {
     background-position: center 20%;
   }
   
-  .img-area img {
+  .img-area .illustration-woman {
     position: absolute;
     min-width: 14.8125rem;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -98%);
+  }
+
+  .img-area .box-img {
+    display: none;
   }
 
   .card-faq .faq {
