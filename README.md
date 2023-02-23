@@ -41,7 +41,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <h3 id="autor">🧔 Autor</h3>
 
- <img src="https://avatars.githubusercontent.com/u/115656394?v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50px;" src="https://avatars.githubusercontent.com/u/115656394?v=4" width="100px;" alt=""/>
  <sub><h3 style="margin: 0;">Diogo Kappaun 🚀</h3></sub>
 
 
