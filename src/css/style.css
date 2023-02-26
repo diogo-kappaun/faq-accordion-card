@@ -92,10 +92,9 @@ body {
   position: relative;
   min-width: 50%;
   padding-right: 5rem;
-  overflow: hidden;
   background: url('../images/bg-pattern-desktop.svg') no-repeat;
+  overflow: hidden;
   background-position: -36.9rem -18.3rem;
-
 }
 
 .img-area .illustration-woman {
@@ -105,7 +104,7 @@ body {
 }
 
 .img-area .box-img {
-  position: absolute;
+  position: relative;
   z-index: 1;
   top: 59%;
   transform: translate(-6rem, -50%);
