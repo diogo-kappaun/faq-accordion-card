@@ -94,20 +94,19 @@ body {
   padding-right: 5rem;
   background: url('../images/bg-pattern-desktop.svg') no-repeat;
   overflow: hidden;
-  background-position: -36.9rem -18.3rem;
+  background-position: -36.5875rem -18.3rem;
 }
 
 .img-area .illustration-woman {
   position: absolute;
   top: 50%;
-  transform: translate(-5.3rem ,-50%);
+  transform: translate(-5rem ,-50%);
 }
 
-.img-area .box-img {
-  position: relative;
+.box-img {
+  position: absolute;
   z-index: 1;
-  top: 59%;
-  transform: translate(-6rem, -50%);
+  transform: translate(-93px, 13.125rem);
 }
 
 .card-faq .faq {
@@ -197,7 +196,7 @@ body {
     transform: translate(-50%, -98%);
   }
 
-  .img-area .box-img {
+  .box-img {
     display: none;
   }
 
